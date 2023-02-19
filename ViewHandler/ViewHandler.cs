@@ -50,7 +50,7 @@ namespace UIViewHandler
         {
             if (element is Control control)
             {
-                control.Foreground = new SolidColorBrush(color);
+                control.Background = new SolidColorBrush(color);
             }
         }
 

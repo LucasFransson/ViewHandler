@@ -12,7 +12,7 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/LucasFransson/ViewHandler</RepositoryUrl>
     <PackageTags>View,  UI-elements, User Interface, WPF</PackageTags>
-    <Version>1.0.4</Version>
+    <Version>1.1.0</Version>
     <Product>UI.ViewHandler</Product>
     <RootNamespace>UIViewHandler</RootNamespace>
     <PackageReleaseNotes>Fixed an error with the ChangeElementBackground that caused the method to change the foreground instead.</PackageReleaseNotes>
