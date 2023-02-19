@@ -56,3 +56,107 @@ To call this method, use the following syntax : ``ViewHandler.OpenNewWindow(type
 Closes the specified Window object by calling its Close method.
 
 To call this method, use the following syntax : ``ViewHandler.CloseWindow(windowObject);``
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### DisableElements
+
+Disables a set of UI elements passed as parameters. This method will set the IsEnabled property of each element to false.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### EnableElements
+
+Enables a set of UI elements passed as parameters. This method will set the IsEnabled property of each element to true
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### CollapseElements
+
+Collapses a set of UI elements passed as parameters. This method will set the Visibility property of each element to Visibility.Collapsed.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### ShowElements
+
+Shows a set of UI elements passed as parameters. This method will set the Visibility property of each element to Visibility.Visible.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### SetElementsFontSize
+
+Sets the font size of a set of UI elements passed as parameters. This method will set the FontSize property of each element to the specified size.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### AreTextBoxesEmptyOrNull
+
+Checks whether a set of TextBox controls passed as parameters are empty or null. This method returns a Boolean value indicating whether all TextBox controls are either empty or null.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### CreateListViewItem
+
+The CreateListViewItem method takes an object and a string and creates a ListViewItem object with the Tag property set to the object and the Content property set to the string. This method is useful when creating ListView items that need to have an object associated with them, such as when building a list of selectable items in a UI.
+
+##### Parameters:
+obj: The object to set as the Tag property of the ListViewItem. This object can be any type of object.
+objContent: The string to be as the Content property of the ListViewItem. This string can be any valid string.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### AddLvItemToListView
+
+The AddLvItemToListView method takes a ListViewItem and adds it to a ListView. This method is useful when you need to programmatically add items to a ListView at runtime.
+
+##### Parameters:
+lvItem: The ListViewItem to add to the ListView. This parameter should not be null.
+listView: The ListView to which the ListViewItem will be added. This parameter should not be null.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### GetListFromListViewTags
+
+Takes a ListView item and tries to convert all items with a Tag property that matches with the specified Type to a list. If the object is not of the specified type it is not converted.
+
+##### Parameters:
+listView: The ListView to retrieve items from.
+##### Type Parameters
+T: The type to search for in the ListView items.
+##### Returns
+A List<T> containing all the ListViewItem.Tag values that match the specified Type.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### ParseStringToEnum
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### UpdateListView
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### SetComboBoxPreviewItem
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### LoadObjectsToComboBox
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### GetEnumList
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
