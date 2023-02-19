@@ -4,7 +4,27 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>ViewHandler</Title>
+    <Authors>LucasFransson</Authors>
+    <Description>ViewHandler provides a range of utility methods for working with user interface elements in desktop .Net applications.</Description>
+    <PackageProjectUrl>https://github.com/LucasFransson/ViewHandler</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/LucasFransson/ViewHandler</RepositoryUrl>
+    <PackageTags>View,  UI-elements, User Interface, WPF</PackageTags>
+    <Version>1.0.4</Version>
+    <Product>UI.ViewHandler</Product>
+    <RootNamespace>UIViewHandler</RootNamespace>
+    <PackageReleaseNotes>Fixed an error with the ChangeElementBackground that caused the method to change the foreground instead.</PackageReleaseNotes>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <Reference Include="PresentationCore">

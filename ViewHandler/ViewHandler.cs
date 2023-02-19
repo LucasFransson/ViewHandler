@@ -3,7 +3,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 
-namespace ViewHandler
+namespace UIViewHandler
 {
     public static class ViewHandler
     {
@@ -49,7 +49,7 @@ namespace ViewHandler
         {
             if (element is Control control)
             {
-                control.Foreground = new SolidColorBrush(color);
+                control.Background = new SolidColorBrush(color);
             }
         }
 
